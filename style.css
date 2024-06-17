@@ -115,5 +115,5 @@ span{
   transition: 0.4s ease-in-out;
 }
 .home-img img: hover{
-  box-shadow:
+  box-shadow:blue;
 }
