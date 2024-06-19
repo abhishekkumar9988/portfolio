@@ -7,7 +7,6 @@
     border: none;
     outline: none ;
     scroll-behavior:smooth;
-
  }
  :root{
    --background-color: #080808;
@@ -206,8 +205,7 @@ span{
  @keyframes cursor{
   to{
     border-left: 1px solid var(--main-color);
-    
-  }
+   }
  }
  @keyframes words{
   0%,
@@ -272,9 +270,8 @@ width: calc(100% + 8px);
 }
 .education h2{
   margin-bottom: 5rem;
-
 }
-.timeline-item{
+.timeline-items{
   max-width: 1200px;
   margin: auto;
   display: flex;
@@ -300,11 +297,9 @@ width: calc(100% + 8px);
 .timeline-item:nth-child(odd){
   padding-right: calc(50% + 30px);
   text-align: right;
-  
-}
+ }
 .timeline-item:nth-child(even){
   padding-left: calc(50% +30px);
-
 }
 .timeline-dot 
 {
@@ -312,7 +307,7 @@ width: calc(100% + 8px);
   width: 21px;
   background-color: var(--main-color);
   box-shadow: 0 0 25px var(--main-color),
-              0 0 30px var(--main-color);
+              0 0 50px var(--main-color);
   position: absolute;
   left: calc(50% - 8px);
   border-radius: 50%;
@@ -323,14 +318,13 @@ width: calc(100% + 8px);
   font-weight: 800;
   color: white;
   margin: 6px 0 15px;
-
 }
 .timeline-content{
-  background-color: var(--main-color);
+  background-color: var(--background-color);
   border: 3px solid var(--main-color);
-  padding: 30px 50 px;
+  padding: 30px 50px;
   border-radius: 4rem;
-  box-shadow: 00 10px var(--main-color);
+  box-shadow: 0 0 10px var(--main-color);
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
@@ -355,7 +349,6 @@ line-height: 22px;
 }
 ::-webkit-scrollbar-thumb{
   background-color: var(--main-color);
-
 }
 ::-webkit-scrollbar-track{
   background-color: var(--main-color);
