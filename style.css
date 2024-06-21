@@ -278,7 +278,7 @@ width: calc(100% + 8px);
   flex-wrap: wrap;
   position: relative;
 }
-.timeline-item ::before{
+.timeline-items::before{
   content: "";
   position: absolute;
   width: 5px;
@@ -344,10 +344,11 @@ font-weight: 300;
 line-height: 22px;
 }
 ::-webkit-scrollbar{
-  width: 15px;
+  width: 8px;
 }
 ::-webkit-scrollbar-thumb{
   background-color: var(--main-color);
+  /* border-radius: 10px; */
 }
 ::-webkit-scrollbar-track{
   background-color: var(--background-color);
