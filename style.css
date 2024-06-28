@@ -222,7 +222,7 @@ span{
   {
     content: "Web Developer";
   }
-/*   61%,
+  61%,
   80%
   {
     content: "Software Tester";
@@ -231,7 +231,7 @@ span{
   100%
   {
     content: "UI/UX designer";
-  } */
+  }
 }
 @keyframes typing{
   10%,
