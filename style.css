@@ -9,17 +9,21 @@
     scroll-behavior:smooth;
  }
  :root{
+  
    --background-color: #080808;
    --second-background-color: #131311;
    --text-color: white;
    --main-color:#00ffee ;
+   
 }
  html{
   font-size: 60%;
   overflow-x: hidden;
  }
  body{
+  
   background: var(--background-color);
+ 
   color: var(--text-color);
  }
  .header{
@@ -213,24 +217,24 @@ span{
   {
     content: "Frontend Developer"
   }
-  21%,
-  40%
-    {content: "Web Designer";
-    }
+ 21%,
+ 40%
+    {content: "Backend Developer";
+    } 
   41%,
   60%
   {
-    content: "Web Developer";
+    content: "Web Designer";
   }
   61%,
   80%
   {
-    content: "Software Tester";
+    content: "Web Developer";
   }
   81%,
   100%
   {
-    content: "UI/UX designer";
+    content: "Problem Solver";
   }
 }
 @keyframes typing{
@@ -453,7 +457,7 @@ line-height: 22px;
   font-size: 2.8rem;
 }
 .testimonial-item p{
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 #star{
   color: gold;
